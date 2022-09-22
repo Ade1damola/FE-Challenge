@@ -528,7 +528,7 @@ input{
   /************* INTRO SECTION **************/
 
   .hero h1{
-    font-size: 55px;
+    font-size: 45px;
     line-height: 60px;
   }
 
@@ -625,7 +625,7 @@ input{
   }
 
   .about h1{
-    font-size: 55px;
+    font-size: 45px;
     line-height: 70px;
   }
 /****************FUND SECTION*****************/
@@ -656,7 +656,7 @@ input{
   }
 
   .wallet h1{
-    font-size: 55px;
+    font-size: 45px;
     line-height: 70px;
   }
 
