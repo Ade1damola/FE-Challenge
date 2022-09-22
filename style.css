@@ -527,13 +527,20 @@ input{
 
   /************* INTRO SECTION **************/
 
+
   .hero h1{
     font-size: 45px;
     line-height: 60px;
+    text-align: center;
   }
 
-  .hero .button-2{
+  .hero p {
+    text-align: center;
+  }
+
+  .hero .button-0{
     width: 150px;
+   
   }
 
   .hero .top{
@@ -541,7 +548,7 @@ input{
     flex-direction: column;
     text-align: center;
     align-items: center;
-    justify-content: justify;
+    justify-content: center;
   }
 
   /************** ABOUT SECTION ***************/
