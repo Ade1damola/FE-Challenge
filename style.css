@@ -523,7 +523,7 @@ input{
 
 
   body{
-    overflow: hidden;
+    overflow-x: hidden;
   }
   .nav-ul{
     font-size: 10px;
