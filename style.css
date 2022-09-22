@@ -559,6 +559,7 @@ input{
 
   .hero .down .button-2{
     margin-left: 100px;
+    overflow: hidden;
   }
 
   /************** ABOUT SECTION ***************/
