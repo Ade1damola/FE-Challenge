@@ -540,7 +540,6 @@ input{
 
   .hero .button-0{
     width: 150px;
-   
   }
 
   .hero .top{
@@ -549,6 +548,17 @@ input{
     text-align: center;
     align-items: center;
     justify-content: center;
+  }
+
+  .hero .down{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero .down .button-2{
+    margin-left: 100px;
   }
 
   /************** ABOUT SECTION ***************/
