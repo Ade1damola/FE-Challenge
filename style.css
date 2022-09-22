@@ -533,7 +533,15 @@ input{
   }
 
   .hero .button-2{
-    margin-right: 20px;
+    width: 150px;
+  }
+
+  .hero .top{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: justify;
   }
 
   /************** ABOUT SECTION ***************/
@@ -614,6 +622,11 @@ input{
 /************** ABOUT SECTION ***************/
   .box div{
     height: 300px;
+  }
+
+  .about h1{
+    font-size: 55px;
+    line-height: 70px;
   }
 /****************FUND SECTION*****************/
   .funds{
