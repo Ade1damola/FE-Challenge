@@ -1,0 +1,668 @@
+@import url(static/SpaceGrotesk-Bold.ttf,); 
+@import url(static/SpaceGrotesk-Light.ttf);
+@import url(static/SpaceGrotesk-Regular.ttf);
+@import url(static/SpaceGrotesk-SemiBold.ttf);
+@import url(static/SpaceGrotesk-Medium.ttf);
+
+
+*{
+  margin: 0;
+  padding: 0%;
+  font-family: sans-serif;
+  color: #fff;
+}
+
+/********** NAV SECTION *********/
+/********** NAV SECTION *********/
+/********** NAV SECTION *********/
+
+header{
+  width: 100%;
+  height: 50px;
+  padding: 15px 25px;
+  position: relative;
+}
+
+.logo{
+  margin-right: 30px;
+  height: 35px;
+  padding-bottom: 10px;
+  font-size: x-large;
+}
+
+nav{
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  font-size: large;
+}
+
+.nav-ul{
+  display: flex;
+  list-style: none;
+}
+
+.login a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.login a:hover{
+  color: #fff;
+}
+
+.login .button {
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 20px;
+  border: 2px solid #495057;
+  background: #495057;
+  margin-left: 20px;
+  font-size: medium;
+}
+.login .button:hover {
+  background: #fff;
+  color: #495057
+}
+
+/************ INTRO SECTION *****************/
+/************ INTRO SECTION *****************/
+/************ INTRO SECTION *****************/
+.intro-section{
+  padding-bottom: 10em;
+}
+
+.intro{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  top: 150px;
+  justify-content: space-between;
+}
+
+.hero .top{
+  margin: 10px 0px;
+}
+
+.hero .button {
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 20px;
+  border: 2px solid #495057;
+  background: #26262B;
+}
+
+.hero a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.hero a:hover{
+  color: #495057;
+  background: #fff;
+}
+
+.button:hover {
+  background: #fff;
+  color: #495057
+}
+
+.hero h1{
+  font-size: 72px;
+  line-height: 90px;
+  font-weight: 700;
+}
+
+.hero p{
+  margin: 30px 0px;
+}
+
+.hero .button-2{
+  width: 200px;
+  text-align: center;
+  border: 2px solid #26262B;
+  background-color: #495057;
+  margin-right: 100px;
+}
+
+.image-1{
+  transform: rotate(15deg);
+}
+
+/*********** BAR SECTION  ****************/
+/*********** BAR SECTION  ****************/
+/*********** BAR SECTION  ****************/
+
+.bar-section{
+ text-align: center;
+  border: #495057;
+  display: flex;
+  padding-bottom: 10em;
+  width: 100%;
+}
+
+.bar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5em;
+}
+
+.bar ul{
+  display: flex;
+  list-style: none;
+  background: #fff;
+  border-radius: 50px;
+  padding-left: 0%;
+}
+
+.bar ul li{
+  padding: 15px 20px;
+}
+
+.bar ul li a{
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+  font-size: large;
+}
+
+.bar ul li a:hover{
+  background: #495057;
+  padding: 10px 30px;
+  border-radius: 50px;
+  transition: all 0.3 ease;
+}
+
+.feature{
+  background: #000;
+  color: #fff;
+  border-radius: 50px;
+  padding: 10px 30px;
+  margin: 0;
+}
+
+.feature:hover{
+  background: #495057;
+  transition: all 0.3s ease;
+}
+
+
+/*************** ABOUT SECTION ********************/
+/*************** ABOUT SECTION ********************/
+/*************** ABOUT SECTION ********************/
+
+.about{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.about h1{
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 90px;
+}
+.about p{
+  margin: 20px;
+  color: #6D6D6D;
+}
+
+.about span{
+  text-decoration: underline #99C2FF;
+  color: #fff;
+  font-weight: 500;
+  
+}
+
+.box{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.box div{
+  width: 500px;
+  height: 200px;
+  background: #1E1F21;
+  text-align: left;
+  background: #26262B;
+  margin: 7px 15px;
+  padding: 20px 15px;
+}
+
+.box div img{
+  margin: 5px;
+}
+
+.box div h6{
+  font-weight: 700;
+  margin-top: 5px;
+}
+
+.box div p{
+  margin-left: 0%;
+  font-size: smaller;
+  font-weight: 700;
+}
+
+/************ INFO SECTION *************/
+/************ INFO SECTION *************/
+/************ INFO SECTION *************/
+
+.info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.info h2{
+  margin: 50px;
+}
+
+
+/************* FUND SECTION **************/
+/************* FUND SECTION **************/
+/************* FUND SECTION **************/
+
+.fund-section{
+  margin: 200px;
+  background-color: #26262B;
+  padding: 50px;
+}
+
+.fund-nav{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fund-nav ul{
+  list-style: none;
+  display: flex;
+}
+
+.fund-nav ul li{
+  padding: 7px 15px;
+}
+
+.fund-nav ul li a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.funds{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.left h5{
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.left h3{
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 70px;
+}
+
+.left p{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #6D6D6D;
+}
+
+.left a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.left a:hover{
+  color: #495057;
+}
+
+.start {
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 20px;
+  border: 2px solid #495057;
+  background: #495057;
+  font-size: small;
+}
+.start:hover {
+  background: #fff;
+  color: #495057
+}
+
+/********* WALLET SECTION*********/
+/********* WALLET SECTION*********/
+/********* WALLET SECTION*********/
+
+.wallet-section{
+  background-image: url(images/Ellipse3.svg), 
+  url(images/Ellipse5.svg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  margin: 200px;
+  padding: 50px;
+}
+
+.wallet{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.left h1{
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 90px;
+}
+
+.left p{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #6D6D6D;
+}
+
+
+/************* FOOTER SECTION**************/
+/************* FOOTER SECTION**************/
+/************* FOOTER SECTION**************/
+
+footer{
+  padding: 30px 50px;
+  background: #26262B;
+}
+
+.top{
+  text-align: center;
+  
+}
+
+.top p{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #6D6D6D;
+}
+
+.top .bulk{
+  width: 100%;
+}
+
+.bottom{
+ padding: 30px 0px;
+}
+
+.bottom .row{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.bottom .column{
+  width: 20%;
+}
+.column ul{
+  list-style: none;
+}
+
+.column ul li:not(:last-child){
+  margin-bottom: 10px;
+}
+
+.column a{
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  transition: all 0.3 ease ;
+}
+
+.column a:hover{
+  color: #6D6D6D;
+  padding-left: 10px;
+}
+
+.column p{
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.column h6{
+  font-weight: 500;
+  font-size: 12px;
+  color: #6D6D6D;
+}
+
+.social{
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.social:hover{
+  background-color: rgba(255, 255, 255,0.6);
+  padding: 5px;
+}
+
+label{
+  position: relative;
+  width: 100%;
+}
+
+input{
+  background-color: #26262B;
+  height: 50px;
+  width: 100%;
+  font-weight: 500;
+  text-align: center;
+  border: none;
+  border: none;
+  box-shadow: #495057;
+}
+
+.form button{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 50px;
+  background-color: #6D6D6D;
+  border: #6D6D6D;
+  font-size: 12px;
+}
+
+.designer{
+  display: flex;
+  justify-content: space-between;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+
+
+
+/*********** MEDIA QUERIES************/
+/*********** MEDIA QUERIES************/
+/*********** MEDIA QUERIES************/
+
+@media only screen and (max-width: 600px){
+
+  .nav-ul{
+    font-size: 10px;
+  }
+
+  /************* INTRO SECTION **************/
+
+  .hero h1{
+    font-size: 55px;
+    line-height: 60px;
+  }
+
+  .hero .button-2{
+    margin-right: 20px;
+  }
+
+  /************** ABOUT SECTION ***************/
+  .box{
+    display: flex;
+    flex-direction: column;
+  }
+  .box div{
+    height: 200px;
+    text-align: center;
+    margin: 7px 15px;
+    width: 300px;
+  }
+
+  /*********** BAR SECTION  ****************/
+  .bar{
+    width: 300px;
+  }
+
+  .bar ul li{
+    padding: 5px 10px;
+  }
+  
+  .bar ul li a{
+    font-weight: 600;
+    font-size: 14px;
+  }
+
+  .feature{
+    padding: 5px 15px;
+  }
+
+  /************* FOOTER SECTION**************/
+  .bottom .column{
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .designer{
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  
+
+
+  body{
+    text-align: center;
+  }
+
+  .nav-ul{
+    font-size: 14px;
+  }
+
+  /************* INTRO SECTION **************/
+  .intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 100px;
+  }
+
+  .vector-2{
+   display: none;
+  }
+
+  .image-1{
+    margin-top: 50px;
+    width: 300px;
+    height: 300px;
+  }
+
+  .vector-1{
+    display: none;
+  }
+/************** ABOUT SECTION ***************/
+  .box div{
+    height: 300px;
+  }
+/****************FUND SECTION*****************/
+  .funds{
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .image-4{
+    width: 300px;
+    height: 300px;
+  }
+
+  .fund-section{
+    margin: 20px;
+  }
+
+  /********* WALLET SECTION*********/
+  .wallet{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .image-3{
+    width: 300px;
+    height: 300px;
+  }
+
+  .wallet h1{
+    font-size: 55px;
+    line-height: 70px;
+  }
+
+  .wallet-section{
+    margin: 20px;
+    text-align: center;
+  }
+
+  /************* FOOTER SECTION**************/
+
+.bottom .column{
+  width: 50%;
+  margin-bottom: 30px;
+}
+}
+
+@media(max-width: 600px){
+  .bottom .column{
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
